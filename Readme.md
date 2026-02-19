@@ -26,3 +26,6 @@
 22. 增加一个能发送特定格式文本得组件
 23. 提供一个串口助手的文本显示框的颜色调整的功能
 24. 增加清除上位机接收区域和发送区域信息的功能
+
+## 打包程序
+pyinstaller -F -w -n "串口助手_极客翔" --clean --collect-all customtkinter --collect-all serial serial_assistant.py 
